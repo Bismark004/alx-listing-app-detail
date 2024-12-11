@@ -1,9 +1,2 @@
-export interface CardProps {
-    title: string;
-    description: string;
-}
-
-export interface ButtonProps {
-    label: string;
-    onClick: () => void;
-}
+export const API_BASE_URL = "https://api.example.com";
+export const DEFAULT_PLACEHOLDER_IMAGE = "/assets/placeholder.png";
